@@ -1,0 +1,90 @@
+html {
+    font-size: 16px; /* Set the base font size */
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    margin: 0; 
+    font-size: 1rem; 
+}
+
+.hero {
+    text-align: left;
+    width: 16.875rem; 
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 0.625rem; 
+}
+
+#heading {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.5rem; 
+}
+
+.description {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem; 
+    padding-bottom: 0.625rem; 
+}
+
+#underline {
+    border-bottom: 0.3125rem solid #A1B2BCff; 
+    padding-bottom: 0;
+}
+
+#underline:hover {
+    border-bottom: 0.3125rem solid #463B2Cff; 
+    padding-bottom: 0;
+    color: white;
+    text-shadow: 0px 0px 5px blue;
+}
+
+#CTA {
+    background: #A1B2BCff;
+    padding: 0.3125rem 0.9rem; 
+    color: white;
+    text-shadow: 1px 1px black;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3rem; 
+    border: 0.3125rem solid #A1B2BCff; 
+    box-shadow: 1px 1px 2px black;
+}
+
+#CTA:hover {
+    background: #463B2Cff;
+    padding: 0.3125rem 0.9rem; 
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3rem; 
+    border: 0.3125rem solid #463B2Cff;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
+    html {
+        font-size: 14px; /* Adjust the base font size for mobile */
+    }
+}
+
+/* Media query for tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    html {
+        font-size: 16px; /* Adjust the base font size for tablets */
+    }
+}
+
+/* Media query for laptops/desktops */
+@media only screen and (min-width: 1024px) {
+    html {
+        font-size: 18px; /* Adjust the base font size for laptops/desktops */
+    }
+}
